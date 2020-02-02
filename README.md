@@ -4,27 +4,27 @@ Theses are my personal preferences for programs like vim and tmux.
 # vim
 
 ## Splits
-  ':split'
+`:split`
 Split window horisontally
 
-  ':vs'
+`:vs`
 Split window vertically
 
-  ':20vs .'
+`:20vs .`
 20 character wide vertical split opening the file manager of the current directory
 
 ## Window Management
-  'CTL + w'
+`CTL + w`
 Window management
 
-  'CTL + w, h/j/k/l'
+`CTL + w, h/j/k/l`
 Switch window cursor as indicated by directions keys
 
-  'CTL + w, w'
+`CTL + w, w`
 Switch to next window
 
-  'CTL + w, o'
+`CTL + w, o`
 Close all windows except the one currently selected
 
-  'CTL + w, c'
+`CTL + w, c`
 Close current window
