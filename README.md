@@ -28,3 +28,18 @@ Close all windows except the one currently selected
 
 `CTL + w, c`
 Close current window
+
+## Spelling
+
+`:set spell spelllang=en_au`
+Turn on spelling highlighting with Australian region
+
+`:set nospell`
+Turn off spelling highlighting
+
+`]s`
+Next highlighted spelling error
+
+`s]`
+Previous highlighted spelling error
+
