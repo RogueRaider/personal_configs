@@ -33,13 +33,16 @@ Close current window
 
 `:set spell spelllang=en_au`
 Turn on spelling highlighting with Australian region
-
 `:set nospell`
 Turn off spelling highlighting
-
 `]s`
 Next highlighted spelling error
-
-`s]`
+`[s`
 Previous highlighted spelling error
+`z=`
+See options for misspelt word
+`zg`
+Add to dictionary
+`zw`
+Mark word as incorrect. Highlight futher instances of this word.
 
