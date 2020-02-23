@@ -52,4 +52,58 @@ Add to dictionary
 `zw`
 Mark word as incorrect. Highlight futher instances of this word.
 
+## markdown 
+
+Markdown plugin provided by plasitcboy/vim-markdown
+
+### folds
+
+`zr`
+reduces fold level throughout the buffer
+
+`zR`
+opens all folds
+
+`zm`
+increases fold level throughout the buffer
+
+`zM`
+folds everything all the way
+
+`za`
+open a fold your cursor is on
+
+`zA`
+open a fold your cursor is on recursively
+
+`zc`
+close a fold your cursor is on
+
+`zC`
+close a fold your cursor is on recursively
+
+
+### navigation
+
+`ge`
+open the link under the cursor in Vim for editing. Useful for relative markdown links. <Plug>Markdown_EditUrlUnderCursor The rules for the cursor position are the same as the gx command.
+
+`]]`
+go to next header. <Plug>Markdown_MoveToNextHeader
+
+`[[`
+go to previous header. Contrast with ]c. <Plug>Markdown_MoveToPreviousHeader
+
+`][`
+go to next sibling header if any. <Plug>Markdown_MoveToNextSiblingHeader
+
+`[`
+go to previous sibling header if any. <Plug>Markdown_MoveToPreviousSiblingHeader
+
+`]c`
+go to Current header. <Plug>Markdown_MoveToCurHeader
+
+`]u`
+go to parent header (Up). <Plug>Markdown_MoveToParentHeader
+
 
