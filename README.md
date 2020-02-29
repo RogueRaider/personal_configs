@@ -3,6 +3,13 @@ Theses are my personal preferences for programs like vim and tmux.
 
 # vim
 
+## Movement
+`zz`
+Move page to have cursor in the middle of the screen
+
+`zt`
+Move page to have cursor at the top of the screen
+
 ## Splits
 `:split`
 Split window horisontally
