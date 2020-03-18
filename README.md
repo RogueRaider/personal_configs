@@ -20,6 +20,15 @@ Split window vertically
 `:20vs .`
 20 character wide vertical split opening the file manager of the current directory
 
+## Registers
+
+`"0p`
+In normal and visual modes, pastes the contents of the register 0
+
+`"*p`
+Pastes the contents of the clipboard
+
+
 ## Window Management
 `CTL + w`
 Window management
