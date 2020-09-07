@@ -12,6 +12,7 @@ Move page to have cursor at the top of the screen
 
 ## Splits
 `:split`
+`:s`
 Split window horisontally
 
 `:vs`
@@ -44,6 +45,10 @@ Close all windows except the one currently selected
 
 `CTL + w, c`
 Close current window
+
+## Terminal
+`:term`
+Open terminal
 
 ## Spelling
 
