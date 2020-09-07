@@ -50,6 +50,10 @@ Close current window
 `:term`
 Open terminal
 
+## Explorer
+`:Explorer :E`
+Open file explorer
+
 ## Spelling
 
 `:set spell spelllang=en_au`
